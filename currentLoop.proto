@@ -1,7 +1,6 @@
 syntax = "proto3";
 
-package cdh;
-option java_package = "network.cdh";
+option java_package = "network.cdh.currentLoop";
 
 service CurrentLoop {
     rpc SendTelemetry (CurrentLoopRequest) returns (CurrentLoopResponse) {}
