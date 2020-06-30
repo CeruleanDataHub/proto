@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package cdh;
+option java_package = "network.cdh";
+
+service CurrentLoop {
+    rpc SendTelemetry (CurrentLoopRequest) returns (CurrentLoopResponse) {}
+}
+
+message CurrentLoopRequest {
+    string hash = 1;
+    string timestamp = 2;
+    int32 value = 3;
+    float voltage = 4;
+    float current = 5;
+}
+
+message CurrentLoopResponse {
+    string hash = 1;
+}
