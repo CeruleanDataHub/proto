@@ -1,0 +1,19 @@
+{
+  "name": "proto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeruleanDataHub/proto.git"
+  },
+  "author": "Antti Rintala <rintsi@gmail.com>",
+  "license": "LGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/CeruleanDataHub/proto/issues"
+  },
+  "homepage": "https://github.com/CeruleanDataHub/proto#readme"
+}
